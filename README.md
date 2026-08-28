@@ -1,148 +1,126 @@
 # Angel W. Miller
 
-**English:** [Go to English section](#hi-im-angel-w-miller)  
-**Español:** [Ir a la sección en español](#hola-soy-angel-w-miller)
+**Data Analytics · Business Intelligence · Data Engineering**
+
+Based in Panama City, Panama.
+
+I have a Systems and Computer Engineering background with a focus on building end-to-end data solutions: from ingestion and transformation to data modeling, analytics, automated validation, and business intelligence.
+
+My projects combine **Python, SQL, PostgreSQL, Power BI, and cloud technologies** to turn raw data into reliable analytical models and actionable insights.
+
+🌎 **Español:** [README.es.md](README.es.md)
 
 ---
 
-# Hi, I'm Angel W. Miller
+## Tech Stack
 
-Systems and Computer Engineering graduate from Panama City, focused on **Data Analytics** and **Business Intelligence**. I build end-to-end projects using **Power BI, SQL, Python, and Power Query** to transform raw data into clear, actionable insights. My current goal is to grow as a **Data Analyst / BI Analyst**, with a long-term path toward Data Engineering.
+**Data & Analytics**  
+Python · SQL · PostgreSQL · Power BI · DAX · Power Query · Excel · pandas
 
-## About me
+**Data Engineering**  
+ETL/ELT · Data Pipelines · Data Quality · Dimensional Modeling · Star Schemas · Analytical Marts · PyArrow · SQLAlchemy
 
-- Systems and Computer Engineering graduate at Universidad Tecnológica de Panamá (expected 2026)
-- Completed all academic coursework — graduation project linked to AWS Certified Solutions Architect certification
-- Interested in data analysis, BI, dashboarding, and data pipeline design
-- Languages: Spanish (Native) | English (C2 Proficient)
+**Cloud**  
+AWS S3 · AWS Lambda · Amazon Athena · IAM · CloudWatch
 
-## Tech stack
-
-- **Data Analysis & BI:** Power BI, DAX, Power Query, SQL, Python, Excel
-- **Cloud (pipeline infrastructure):** AWS S3, Lambda, Athena, IAM, CloudWatch
-- **Other Tools:** Figma
-
-## Featured projects
-
-### 📊 Security Log Lake & Traffic Insights
-
-End-to-end data analytics project: built a full pipeline to ingest, normalize, and analyze 450K security log records, then deliver insights through SQL analytics and interactive Power BI dashboards.
-
-**Data work:**
-- Designed a 3-source data model (Firewall, VPN, VPC Flow) across 30 days of synthetic log data
-- Wrote 9 SQL analytical queries covering traffic patterns, threat detection, and executive summaries
-- Built a 3-page interactive Power BI dashboard: Executive Overview, Network & Threat Analysis, VPN Analysis
-- Handled data quality: schema validation, vocabulary normalization, and metadata enrichment per source
-
-**Key findings:** 150K firewall events · 46.2% block rate · VPN brute-force user flagged at +2.36% deviation · Port 6379 (Redis) top targeted with 7.6K rejections
-
-*Pipeline infrastructure: AWS S3 + Lambda + Athena · Team project (2 engineers) · PR-based Git workflow*
-
-[View project repository](https://github.com/angel-wm/security-log-lake-aws)
+**Development & Testing**  
+Docker · Docker Compose · Git · GitHub · GitHub Actions · pytest · Ruff
 
 ---
 
-### 📊 Online Retail Sales Analysis – Power BI
+# Featured Projects
 
-End-to-end business intelligence project built with Power BI using transaction-level retail data from a UK-based online store.
+## 🚕 Urban Mobility Analytics Pipeline
 
-**Data work:**
-- Cleaned and transformed raw data with Power Query (cancellations, returns, missing values)
-- Built a relational model with fact and calendar tables
-- Created DAX measures for key business KPIs: net sales, return rate, average order value, unique customers
-- Designed a 2-page interactive dashboard covering sales overview and product & customer insights
+End-to-end data engineering and analytics project built on **NYC Yellow Taxi trip data**, covering the complete path from raw Parquet ingestion to an analytical PostgreSQL model and Power BI reporting layer.
 
-[View project repository](https://github.com/angel-wm/online-retail-sales-analysis)
+### What I built
 
-## Certifications
+- Processed and modeled **3.4M+ taxi trip records** using Python and PostgreSQL.
+- Built a reproducible ingestion pipeline with audit records, idempotent file processing, validation, and data-quality controls.
+- Designed raw, staging, analytics, marts, and dimensional layers, including a **trip-level star schema**.
+- Developed daily and hourly analytical marts with rankings, rolling averages, cumulative metrics, and period comparisons.
+- Optimized analytical query paths with indexes and fact-based mart definitions.
+- Added **33 unit tests and 9 PostgreSQL integration tests**.
+- Implemented automated code-quality and database validation with **GitHub Actions CI**.
+- Built a three-page **Power BI dashboard** for executive metrics, demand patterns, revenue, and data-quality analysis.
 
-- AWS Academy Graduate – Cloud Foundations
-- AWS Academy Graduate – Cloud Architecting
-- AWS Academy Graduate – Data Engineering
-- PCAP: Programming Essentials in Python
-- Platzi – Power BI
-- Platzi – Fundamentos de Bases de Datos
+**Stack:** Python · PostgreSQL · SQL · Docker · pandas · PyArrow · SQLAlchemy · pytest · GitHub Actions · Power BI
 
-## Languages
-
-- Spanish: Native
-- English: C2 Proficient (EF SET)
-
-## Connect with me
-
-- **LinkedIn:** https://www.linkedin.com/in/angel-w-miller
-- **Email:** awmiller.mazzitelli@outlook.com
-
-[Back to top](#angel-w-miller)
+[View repository →](https://github.com/angel-wm/urban-mobility-analytics)
 
 ---
 
-# Hola, soy Angel W. Miller
+## 🔐 Security Log Lake & Traffic Insights
 
-Egresado de **Ingeniería en Sistemas y Computación** en Ciudad de Panamá, enfocado en **Análisis de Datos** e **Inteligencia de Negocios**. Desarrollo proyectos end-to-end con **Power BI, SQL, Python y Power Query** para transformar datos en información clara y orientada a la toma de decisiones. Mi objetivo es crecer como **Analista de Datos / BI Analyst**, con trayectoria a largo plazo hacia Data Engineering.
+Serverless security analytics pipeline built on AWS to ingest, normalize, analyze, and visualize **450K synthetic Firewall, VPN, and VPC Flow records**.
 
-## Sobre mí
+### What I built
 
-- Egresado de Ingeniería en Sistemas y Computación en la Universidad Tecnológica de Panamá (graduación esperada 2026)
-- Materias completadas — trabajo de graduación vinculado a la certificación AWS Certified Solutions Architect
-- Interesado en análisis de datos, BI, dashboards y diseño de pipelines de datos
-- Idiomas: Español (Nativo) | Inglés (C2 Proficient)
+- Event-driven **AWS Lambda** parser triggered by S3 uploads.
+- Per-source schema validation, vocabulary normalization, metadata enrichment, and data-quality flags.
+- Serverless SQL analytics with **Amazon Athena** across nine analytical queries.
+- Analysis of blocked traffic, authentication failures, network behavior, severity patterns, and threat indicators.
+- Three-page **Power BI dashboard** covering executive, network, threat, and VPN analysis.
+- Collaborative Git workflow using branches and pull requests.
 
-## Tecnologías
+**Stack:** Python · AWS S3 · Lambda · Athena · IAM · CloudWatch · SQL · Power BI
 
-- **Análisis de datos y BI:** Power BI, DAX, Power Query, SQL, Python, Excel
-- **Cloud (infraestructura de pipeline):** AWS S3, Lambda, Athena, IAM, CloudWatch
-- **Otras herramientas:** Figma
-
-## Proyectos destacados
-
-### 📊 Security Log Lake & Traffic Insights
-
-Proyecto end-to-end de analítica de datos: pipeline completo para ingestar, normalizar y analizar 450K registros de logs de seguridad, con insights entregados mediante analítica SQL y dashboards interactivos en Power BI.
-
-**Trabajo de datos:**
-- Diseñé un modelo de datos de 3 fuentes (Firewall, VPN, VPC Flow) sobre 30 días de logs sintéticos
-- Escribí 9 queries SQL analíticos: patrones de tráfico, detección de amenazas y resúmenes ejecutivos
-- Construí dashboard de 3 páginas en Power BI: Executive Overview, Network & Threat Analysis, VPN Analysis
-- Gestioné calidad de datos: validación de esquema, normalización de vocabulario y enriquecimiento con metadatos por fuente
-
-**Hallazgos clave:** 150K eventos de firewall · 46,2% de tasa de bloqueo · usuario VPN marcado por fuerza bruta (+2,36% sobre el promedio) · Puerto 6379 (Redis) más atacado con 7,6K rechazos
-
-*Infraestructura del pipeline: AWS S3 + Lambda + Athena · Proyecto en equipo (2 ingenieros) · Flujo de trabajo Git con PRs*
-
-[Ver repositorio del proyecto](https://github.com/angel-wm/security-log-lake-aws)
+[View repository →](https://github.com/angel-wm/security-log-lake-aws)
 
 ---
 
-### 📊 Online Retail Sales Analysis – Power BI
+## 📊 UK Online Retail Sales Analysis
 
-Proyecto end-to-end de inteligencia de negocios en Power BI con datos transaccionales de una tienda online del Reino Unido.
+Business intelligence project focused on transforming transactional retail data into a structured analytical model and interactive Power BI report.
 
-**Trabajo de datos:**
-- Limpié y transformé datos en bruto con Power Query (cancelaciones, devoluciones, valores faltantes)
-- Construí un modelo relacional con tabla de hechos y tabla calendario
-- Creé medidas DAX para KPIs clave: ventas netas, tasa de devolución, ticket promedio, clientes únicos
-- Diseñé dashboard de 2 páginas: resumen de ventas y análisis de productos y clientes
+### What I built
 
-[Ver repositorio del proyecto](https://github.com/angel-wm/online-retail-sales-analysis)
+- Cleaned and transformed raw transactional data using **Power Query**.
+- Identified and classified cancellations, returns, missing customer identifiers, and non-product records.
+- Built a relational model with transactional and calendar tables.
+- Created **DAX measures** for net sales, orders, unique customers, average order value, return value, and return rate.
+- Developed a two-page Power BI dashboard covering sales performance, products, customers, and returns.
 
-## Certificaciones
+**Stack:** Power BI · Power Query · DAX · Excel · Data Modeling
 
-- AWS Academy Graduate – Cloud Foundations
-- AWS Academy Graduate – Cloud Architecting
-- AWS Academy Graduate – Data Engineering
-- PCAP: Programming Essentials in Python
-- Platzi – Power BI
-- Platzi – Fundamentos de Bases de Datos
+[View repository →](https://github.com/angel-wm/online-retail-sales-analysis)
 
-## Idiomas
+---
 
-- Español: Nativo
-- Inglés: C2 Proficient (EF SET)
+# Education
 
-## Conecta conmigo
+### Systems and Computer Engineering
+**Universidad Tecnológica de Panamá**
 
-- **LinkedIn:** https://www.linkedin.com/in/angel-w-miller
-- **Email:** awmiller.mazzitelli@outlook.com
+Coursework completed · Expected graduation: **2026**
 
-[Volver arriba](#angel-w-miller)
+---
+
+# Selected Certifications & Training
+
+- **AWS Academy Graduate – Data Engineering**
+- **AWS Academy Graduate – Cloud Architecting**
+- **AWS Academy Graduate – Cloud Foundations**
+- **PCAP: Programming Essentials in Python** — Cisco Networking Academy / OpenEDG Python Institute
+- **Stanford University – Code in Place 2026**
+- Power BI & DAX
+- Database & SQL Fundamentals
+- Python for Data Science
+- AI Engineering Fundamentals with Python
+- OpenAI API & LangChain
+
+---
+
+# Languages
+
+- **Spanish:** Native
+- **English:** C2 Proficient
+
+---
+
+# Contact
+
+**LinkedIn:** [linkedin.com/in/angel-w-miller](https://www.linkedin.com/in/angel-w-miller)  
+**GitHub:** [github.com/angel-wm](https://github.com/angel-wm)  
+**Email:** awmiller.mazzitelli@outlook.com
