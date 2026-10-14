@@ -3,30 +3,28 @@
 **Análisis de Datos · Business Intelligence · Ingeniería de Datos**  
 Ciudad de Panamá, Panamá · [Read in English](README.md)
 
-Desarrollo soluciones de datos que conectan la preparación y el modelado confiables con reportes útiles y decisiones operativas. Mi portafolio reúne proyectos implementados con **Python, SQL, PostgreSQL, AWS, Power BI y automatización en Excel**.
-
-Completé las materias de Ingeniería en Sistemas y Computación en la Universidad Tecnológica de Panamá; la graduación está prevista para **2027**.
+Desarrollo soluciones de datos que integran ingesta, validación, modelado, automatización y reportes. Mis proyectos terminados abarcan analítica operativa, procesamiento de datos en la nube y business intelligence con Python, SQL, PostgreSQL, AWS, Power BI y Excel.
 
 ## Proyectos destacados
 
-Los siguientes proyectos tienen entregables implementados. Sus repositorios incluyen documentación técnica y evidencia adicional a este resumen.
+Estos proyectos cuentan con entregables implementados. Sus repositorios contienen los detalles técnicos y la evidencia de validación.
 
 ### ProcureFlow — Gestión de Compras e Inventario
 
-Solución integral en **Excel 365 de escritorio** para visibilidad de inventario, decisiones de reabastecimiento, análisis de compras, desempeño de proveedores y reportes gerenciales.
+Sistema en **Excel 365 de escritorio para Windows** para monitorear inventario, decidir reabastecimientos, analizar proveedores, controlar la calidad y generar reportes gerenciales.
 
-- Construí la preparación de datos con **Power Query** y reglas de negocio auditables en Excel.
-- Implementé un **modelo de reabastecimiento de 1.800 filas Producto × Sitio**, análisis de proveedores y controles centralizados de calidad.
-- Desarrollé la **actualización orquestada con VBA**, un informe operativo de reabastecimiento y un dashboard gerencial. El libro validado corresponde a v1.0.0; v1.0.2 actualiza la documentación y QA del repositorio, sin cambiar el comportamiento del libro.
+- Construí la ingesta con Power Query y reglas de negocio auditables en Excel, incluido un **modelo de reabastecimiento de 1.800 filas Producto × Sitio**.
+- Implementé actualización orquestada con VBA, un informe operativo de reabastecimiento y un dashboard gerencial.
+- Documenté la aceptación final con **32/32 criterios aprobados** y **35 controles de calidad aprobados**.
 
 **Tecnologías:** Excel · Power Query · Fórmulas avanzadas · Tablas dinámicas · VBA  
 [Explorar ProcureFlow y las vistas del dashboard](https://github.com/angel-wm/ProcureFlow)
 
 ### Urban Mobility Analytics Pipeline
 
-Pipeline integral de analítica con **datos de taxis de Nueva York**, desde la ingesta de archivos Parquet hasta un modelo dimensional en PostgreSQL y reportes en Power BI.
+Pipeline integral con **datos de taxis de Nueva York**, desde la ingesta de archivos Parquet hasta el modelado en PostgreSQL y los reportes en Power BI.
 
-- Procesé un conjunto de origen de enero de 2025 con **3.475.226 registros de viajes**, ingesta reproducible e idempotente y reglas explícitas de calidad.
+- Procesé **3.475.226 registros de origen de enero de 2025** mediante ingesta reproducible e idempotente y reglas explícitas de calidad.
 - Construí capas SQL de staging, marts analíticos, un esquema estrella a nivel de viaje y optimizaciones de consultas.
 - Incorporé **33 pruebas unitarias, 9 pruebas de integración con PostgreSQL**, CI con GitHub Actions y un reporte de tres páginas en Power BI.
 
@@ -35,44 +33,39 @@ Pipeline integral de analítica con **datos de taxis de Nueva York**, desde la i
 
 ### Security Log Lake & Traffic Insights
 
-Proyecto serverless de AWS desarrollado **entre dos ingenieros** para analizar **450.000 eventos sintéticos** de firewall, VPN y VPC Flow.
+Proyecto colaborativo serverless de AWS desarrollado **entre dos ingenieros** para analizar **450.000 eventos sintéticos de firewall, VPN y VPC Flow**.
 
-- Implementamos un flujo de normalización con **AWS Lambda** activado desde S3, con validación de esquemas y enriquecimiento de metadatos.
-- Utilizamos **Amazon Athena** para nueve consultas de analítica de seguridad y Power BI para un reporte de tres páginas.
+- Construimos el procesamiento con AWS Lambda activado desde S3, validación de esquemas por fuente y enriquecimiento de metadatos.
+- Utilizamos Amazon Athena para **nueve consultas de analítica de seguridad** y Power BI para un reporte de tres páginas.
 
 **Tecnologías:** Python · AWS S3 · Lambda · Athena · SQL · Power BI  
 [Explorar Security Log Lake](https://github.com/angel-wm/security-log-lake-aws)
 
 ### UK Online Retail Sales Analysis
 
-Reporte de dos páginas en **Power BI** y modelo semántico para analizar ventas minoristas, cobertura de clientes y reversiones de transacciones.
+Reporte de dos páginas en Power BI y modelo semántico para analizar ventas minoristas, cobertura de clientes y reversiones de transacciones.
 
-- Preparé los datos transaccionales con **Power Query** y desarrollé métricas DAX documentadas.
-- Construí vistas de ventas, productos y clientes con definiciones verificables. Las transacciones negativas se clasifican como **reversiones**; no se consideran automáticamente devoluciones físicas.
+- Preparé datos transaccionales con Power Query y creé medidas DAX documentadas.
+- Desarrollé vistas de ventas, productos y clientes con verificaciones reproducibles. Las transacciones negativas son **reversiones registradas**, no necesariamente devoluciones físicas.
 
 **Tecnologías:** Power BI · Power Query · DAX · Modelado de datos  
 [Explorar el análisis de ventas retail](https://github.com/angel-wm/online-retail-sales-analysis)
 
 ## Herramientas y competencias técnicas
 
-- **Analítica y BI:** Power BI, DAX, Power Query, Excel, dashboards analíticos, diseño de KPI.
+- **Analítica y BI:** Power BI, DAX, Power Query, Excel, dashboards analíticos, KPI.
 - **Datos y modelado:** Python, SQL, PostgreSQL, pandas, ETL/ELT, controles de calidad, modelado dimensional.
 - **Automatización y validación:** Excel VBA, Docker, Git, GitHub Actions, pytest, Ruff.
 - **Cloud:** AWS S3, Lambda, Athena, IAM, CloudWatch.
 
-## Proyectos en planificación
+## Proyecto en planificación
 
-Estos repositorios documentan arquitecturas y planes de aprendizaje; **todavía no son implementaciones terminadas**.
-
-- [GridPulse](https://github.com/angel-wm/gridpulse-energy-analytics) — analítica de energía planificada con BigQuery y dbt.
-- [FactoryPulse](https://github.com/angel-wm/factorypulse-industrial-iot-lakehouse) — lakehouse industrial IoT planificado con PySpark y Delta Lake.
-- [LedgerFlow](https://github.com/angel-wm/ledgerflow-financial-data-warehouse) — data warehouse financiero planificado con Snowflake, Airflow y dbt.
-- [StreamTrack](https://github.com/angel-wm/streamtrack-real-time-logistics) — streaming logístico planificado con Kafka y Spark Structured Streaming.
+[GridPulse — Analítica de Energía](https://github.com/angel-wm/gridpulse-energy-analytics) explora un futuro flujo de analytics engineering con BigQuery y dbt. **Es un repositorio de planificación, no un pipeline ni un dashboard implementados.**
 
 ## Educación y formación seleccionada
 
 **Ingeniería en Sistemas y Computación** — Universidad Tecnológica de Panamá  
-Materias completadas · Graduación esperada: 2027
+Materias completadas · **Graduación prevista: 2027**
 
 - AWS Academy — Data Engineering, Cloud Architecting y Cloud Foundations.
 - Stanford University — Code in Place 2026.
