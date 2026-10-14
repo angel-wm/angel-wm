@@ -5,7 +5,7 @@ Ciudad de Panamá, Panamá · [Read in English](README.md)
 
 Desarrollo soluciones de datos que conectan la preparación y el modelado confiables con reportes útiles y decisiones operativas. Mi portafolio reúne proyectos implementados con **Python, SQL, PostgreSQL, AWS, Power BI y automatización en Excel**.
 
-Completé las materias de Ingeniería en Sistemas y Computación en la Universidad Tecnológica de Panamá; la graduación está prevista para **2026**.
+Completé las materias de Ingeniería en Sistemas y Computación en la Universidad Tecnológica de Panamá; la graduación está prevista para **2027**.
 
 ## Proyectos destacados
 
@@ -72,7 +72,7 @@ Estos repositorios documentan arquitecturas y planes de aprendizaje; **todavía 
 ## Educación y formación seleccionada
 
 **Ingeniería en Sistemas y Computación** — Universidad Tecnológica de Panamá  
-Materias completadas · Graduación esperada: 2026
+Materias completadas · Graduación esperada: 2027
 
 - AWS Academy — Data Engineering, Cloud Architecting y Cloud Foundations.
 - Stanford University — Code in Place 2026.
