@@ -1,126 +1,72 @@
 # Angel W. Miller
 
-**Análisis de Datos · Business Intelligence · Data Engineering**
+**Análisis de Datos · Business Intelligence · Data Engineering · Automatización**
 
-Ubicado en Ciudad de Panamá, Panamá.
+Ubicado en Ciudad de Panamá, Panamá. **English:** [Read this profile in English](README.md).
 
-Cuento con formación en Ingeniería en Sistemas y Computación y un enfoque en la construcción de soluciones de datos end-to-end: desde la ingesta y transformación hasta el modelado, la analítica, la validación automatizada y el desarrollo de soluciones de business intelligence.
+Tengo formación en Ingeniería en Sistemas y Computación, con las materias completadas y graduación prevista para 2026. Desarrollo proyectos de datos de principio a fin que integran preparación, modelado, validación, automatización y reporting. Mi trabajo abarca pipelines con Python y SQL, Power BI, soluciones operativas en Excel y analítica en AWS.
 
-Mis proyectos combinan **Python, SQL, PostgreSQL, Power BI y tecnologías cloud** para transformar datos en modelos analíticos confiables e información útil para la toma de decisiones.
+## Proyectos destacados
 
-🌎 **English:** [README.md](README.md)
+### [ProcureFlow — Gestión de Compras e Inventario](https://github.com/angel-wm/ProcureFlow)
 
----
+Sistema integral en Excel para visibilidad de inventario, decisiones de reabastecimiento, desempeño de proveedores, control de calidad e informes de gestión.
 
-## Tecnologías
+- Implementé ingesta con Power Query, reglas de negocio auditables en Excel y un flujo de actualización orquestado mediante VBA.
+- Desarrollé un **motor de reabastecimiento de 1.800 filas Producto × Sitio**, un reporte operativo y un dashboard gerencial.
+- Documenté la aceptación final con **32/32 criterios aprobados**, **9/9 verificaciones de regresión superadas** y **35 controles de calidad aprobados**.
 
-**Datos y Analítica**  
-Python · SQL · PostgreSQL · Power BI · DAX · Power Query · Excel · pandas
+**Tecnologías:** Excel 365 · Power Query · VBA · Fórmulas de Excel · Tablas dinámicas · Gráficos dinámicos
 
-**Data Engineering**  
-ETL/ELT · Pipelines de Datos · Calidad de Datos · Modelado Dimensional · Esquemas Estrella · Analytical Marts · PyArrow · SQLAlchemy
+### [Urban Mobility Analytics Pipeline](https://github.com/angel-wm/urban-mobility-analytics)
 
-**Cloud**  
-AWS S3 · AWS Lambda · Amazon Athena · IAM · CloudWatch
+Pipeline reproducible de ingeniería y análisis de datos basado en viajes de taxis amarillos de Nueva York.
 
-**Desarrollo y Testing**  
-Docker · Docker Compose · Git · GitHub · GitHub Actions · pytest · Ruff
+- Ingesté y modelé **más de 3,4 millones de registros** con Python y PostgreSQL, desde la capa raw hasta staging, modelado dimensional y marts analíticos.
+- Incorporé clasificación de calidad de datos, procesamiento idempotente, optimización de consultas y validación automatizada con **33 pruebas unitarias y 9 pruebas de integración con PostgreSQL**.
+- Desarrollé un **reporte de tres páginas en Power BI** e integración continua con GitHub Actions.
 
----
+**Tecnologías:** Python · SQL · PostgreSQL · Docker · pytest · GitHub Actions · Power BI
 
-# Proyectos Destacados
+### [Security Log Lake & Traffic Insights](https://github.com/angel-wm/security-log-lake-aws)
 
-## 🚕 Urban Mobility Analytics Pipeline
+Proyecto colaborativo de dos ingenieros para analítica de seguridad serverless en AWS sobre **450.000 registros sintéticos de firewall, VPN y VPC Flow**.
 
-Proyecto end-to-end de data engineering y analítica construido sobre datos de viajes de **NYC Yellow Taxi**, cubriendo el flujo completo desde la ingesta de archivos Parquet hasta un modelo analítico en PostgreSQL y una capa de reporting en Power BI.
+- Utilizamos eventos de S3 y Python en AWS Lambda para validar, normalizar y enriquecer logs.
+- Analizamos patrones de red y seguridad mediante **nueve consultas SQL en Amazon Athena** y un reporte de tres páginas en Power BI.
 
-### Lo que construí
+**Tecnologías:** AWS S3 · Lambda · Athena · Python · SQL · Power BI
 
-- Procesé y modelé más de **3,4 millones de registros de viajes** utilizando Python y PostgreSQL.
-- Construí un pipeline de ingesta reproducible con registros de auditoría, procesamiento idempotente, validaciones y controles de calidad de datos.
-- Diseñé capas raw, staging, analytics, marts y dimensionales, incluyendo un **esquema estrella a nivel de viaje**.
-- Desarrollé marts analíticos diarios y por hora con rankings, medias móviles, métricas acumuladas y comparaciones entre períodos.
-- Optimicé rutas de consulta analíticas mediante índices y definiciones de marts basadas en la tabla de hechos.
-- Implementé **33 pruebas unitarias y 9 pruebas de integración con PostgreSQL**.
-- Añadí validación automatizada de calidad de código y del modelo de base de datos mediante **GitHub Actions CI**.
-- Construí un dashboard de tres páginas en **Power BI** para métricas ejecutivas, patrones de demanda, ingresos y calidad de datos.
+### [UK Online Retail Sales Analysis](https://github.com/angel-wm/online-retail-sales-analysis)
 
-**Stack:** Python · PostgreSQL · SQL · Docker · pandas · PyArrow · SQLAlchemy · pytest · GitHub Actions · Power BI
+Análisis de transacciones de retail del Reino Unido en dos páginas de Power BI, centrado en ventas, productos, clientes y reversas de transacciones.
 
-[Ver repositorio →](https://github.com/angel-wm/urban-mobility-analytics)
+- Preparé y clasifiqué transacciones con Power Query y construí un modelo relacional con medidas DAX.
+- Documenté verificaciones financieras y limitaciones de los datos, incluida la distinción entre reversas registradas y devoluciones físicas confirmadas.
 
----
+**Tecnologías:** Power BI · Power Query · DAX · Excel · Modelado de datos
 
-## 🔐 Security Log Lake & Traffic Insights
+## Herramientas y competencias
 
-Pipeline serverless de analítica de seguridad construido sobre AWS para ingestar, normalizar, analizar y visualizar **450K registros sintéticos de Firewall, VPN y VPC Flow**.
+- **Analítica y automatización:** Power BI, DAX, Power Query, Excel, VBA, pandas
+- **Ingeniería de datos:** Python, SQL, PostgreSQL, ETL/ELT, modelado dimensional, controles de calidad de datos
+- **Cloud y desarrollo:** AWS S3, Lambda, Athena, Docker, GitHub Actions, pytest
 
-### Lo que construí
+## Proyectos en planificación
 
-- Parser event-driven en **AWS Lambda** activado mediante cargas de archivos a S3.
-- Validación de esquemas por fuente, normalización de vocabulario, enriquecimiento con metadatos y flags de calidad de datos.
-- Analítica SQL serverless con **Amazon Athena** mediante nueve consultas analíticas.
-- Análisis de tráfico bloqueado, fallos de autenticación, comportamiento de red, patrones de severidad e indicadores de amenazas.
-- Dashboard de tres páginas en **Power BI** para análisis ejecutivo, de red, amenazas y VPN.
-- Flujo de trabajo colaborativo con Git mediante ramas y pull requests.
+Estos repositorios documentan arquitecturas previstas y objetivos de aprendizaje; **su implementación aún no ha comenzado**:
 
-**Stack:** Python · AWS S3 · Lambda · Athena · IAM · CloudWatch · SQL · Power BI
+[GridPulse](https://github.com/angel-wm/gridpulse-energy-analytics) (BigQuery + dbt) · [FactoryPulse](https://github.com/angel-wm/factorypulse-industrial-iot-lakehouse) (PySpark + Delta Lake) · [LedgerFlow](https://github.com/angel-wm/ledgerflow-financial-data-warehouse) (Snowflake + Airflow + dbt) · [StreamTrack](https://github.com/angel-wm/streamtrack-real-time-logistics) (Kafka + Structured Streaming).
 
-[Ver repositorio →](https://github.com/angel-wm/security-log-lake-aws)
+## Educación y formación
 
----
+**Ingeniería en Sistemas y Computación** — Universidad Tecnológica de Panamá  
+Materias completadas; graduación prevista: **2026**.
 
-## 📊 UK Online Retail Sales Analysis
+Formación seleccionada: AWS Academy **Data Engineering**, **Cloud Architecting** y **Cloud Foundations**; Stanford **Code in Place 2026**; Cisco / OpenEDG **Programming Essentials in Python**; Power BI y DAX; fundamentos de SQL y bases de datos.
 
-Proyecto de business intelligence enfocado en transformar datos transaccionales de retail en un modelo analítico estructurado y un reporte interactivo en Power BI.
+## Idiomas y contacto
 
-### Lo que construí
+**Español:** Nativo · **Inglés:** C2 Proficient
 
-- Limpié y transformé datos transaccionales utilizando **Power Query**.
-- Identifiqué y clasifiqué cancelaciones, devoluciones, identificadores de cliente faltantes y registros no asociados a productos.
-- Construí un modelo relacional con una tabla transaccional y una tabla calendario.
-- Creé **medidas DAX** para ventas netas, órdenes, clientes únicos, ticket promedio, valor devuelto y tasa de devolución.
-- Desarrollé un dashboard de dos páginas en Power BI para analizar ventas, productos, clientes y devoluciones.
-
-**Stack:** Power BI · Power Query · DAX · Excel · Data Modeling
-
-[Ver repositorio →](https://github.com/angel-wm/online-retail-sales-analysis)
-
----
-
-# Educación
-
-### Ingeniería en Sistemas y Computación
-**Universidad Tecnológica de Panamá**
-
-Materias completadas · Graduación esperada: **2026**
-
----
-
-# Certificaciones y Formación Seleccionada
-
-- **AWS Academy Graduate – Data Engineering**
-- **AWS Academy Graduate – Cloud Architecting**
-- **AWS Academy Graduate – Cloud Foundations**
-- **PCAP: Programming Essentials in Python** — Cisco Networking Academy / OpenEDG Python Institute
-- **Stanford University – Code in Place 2026**
-- Power BI y DAX
-- Fundamentos de Bases de Datos y SQL
-- Python para Ciencia de Datos
-- Fundamentos de Ingeniería de IA con Python
-- API de OpenAI y LangChain
-
----
-
-# Idiomas
-
-- **Español:** Nativo
-- **Inglés:** C2 Proficient
-
----
-
-# Contacto
-
-**LinkedIn:** [linkedin.com/in/angel-w-miller](https://www.linkedin.com/in/angel-w-miller)  
-**GitHub:** [github.com/angel-wm](https://github.com/angel-wm)  
-**Email:** awmiller.mazzitelli@outlook.com
+[LinkedIn](https://www.linkedin.com/in/angel-w-miller) · [Correo electrónico](mailto:awmiller.mazzitelli@outlook.com) · [Repositorios de GitHub](https://github.com/angel-wm?tab=repositories)
