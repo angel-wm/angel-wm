@@ -5,7 +5,7 @@ Panama City, Panama · [Leer en español](README.es.md)
 
 I build data solutions that connect reliable preparation and modeling with practical reporting and operational decisions. My portfolio includes implemented work in **Python, SQL, PostgreSQL, AWS, Power BI, and Excel automation**.
 
-I have completed the coursework for Systems and Computer Engineering at Universidad Tecnológica de Panamá; graduation is expected in **2026**.
+I have completed the coursework for Systems and Computer Engineering at Universidad Tecnológica de Panamá; graduation is expected in **2027**.
 
 ## Featured projects
 
@@ -72,7 +72,7 @@ These repositories document intended architectures and learning plans; **they ar
 ## Education & selected training
 
 **Systems and Computer Engineering** — Universidad Tecnológica de Panamá  
-Coursework completed · Expected graduation: 2026
+Coursework completed · Expected graduation: 2027
 
 - AWS Academy — Data Engineering, Cloud Architecting, and Cloud Foundations.
 - Stanford University — Code in Place 2026.
